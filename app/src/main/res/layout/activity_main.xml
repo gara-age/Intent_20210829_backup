@@ -47,9 +47,10 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/nicknameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="민토토"
+            android:text="토토로"
             android:textSize="18sp"/>
 
         <TextView
@@ -58,6 +59,7 @@
             android:layout_weight="1"/>
 
         <Button
+            android:id="@+id/editNicknameBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
