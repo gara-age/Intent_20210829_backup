@@ -13,9 +13,11 @@ class OtherActivity : AppCompatActivity() {
         returnToMainBtn.setOnClickListener {
 
 //            Intent 를 이용, 메인으로 이동
-            val returnIntent = Intent(this, MainActivity::class.java)
+//            val returnIntent = Intent(this, MainActivity::class.java)
+//            startActivity(returnIntent)
 
-            startActivity(returnIntent)
+//            지금 보고있는 다른 화면을 종료처리
+            finish()
 
         }
 
