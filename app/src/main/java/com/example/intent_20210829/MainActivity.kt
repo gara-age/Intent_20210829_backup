@@ -18,8 +18,10 @@ class MainActivity : AppCompatActivity() {
 
 //            메세지 조회 화면으로 (입력한 내용을 들고) 이동
             val myIntent = Intent(this, ViewMessageActivity::class.java)
-
+//          String을 첨부
             myIntent.putExtra("inputMessage",inputContent)
+//            Int 를 첨부
+            myIntent.putExtra("number",2021)
             startActivity(myIntent)
 
         }

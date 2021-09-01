@@ -18,6 +18,10 @@ class ViewMessageActivity : AppCompatActivity() {
 
         messageTxt.text = receivedMessage
 
+//        첨부된 숫자를 꺼내서 저장 => 숫자를 꺼낼 떄는 첨부된게 없을때의 기본값도 정해줘야함
+        val num = intent.getIntExtra("number" , 0)
+
+        numberTxt.text = num.toString()
 
     }
 }
